@@ -1,0 +1,6 @@
+<mvc:View controllerName="exercise1g4.controller.Exercise1_G4"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    </Page>
+</mvc:View>

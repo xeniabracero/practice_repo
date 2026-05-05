@@ -1,0 +1,98 @@
+{
+  "_version": "1.84.0",
+  "sap.app": {
+    "id": "exercise1g4",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "applicationVersion": {
+      "version": "0.0.1"
+    },
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "resources": "resources.json",
+    "sourceTemplate": {
+      "id": "@sap/generator-fiori:basic",
+      "version": "1.23.0",
+      "toolsId": "20a7e547-c7c3-4fe9-a119-18a7477bdb21"
+    }
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "icons": {
+      "icon": "",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    }
+  },
+  "sap.ui5": {
+    "flexEnabled": true,
+    "dependencies": {
+      "minUI5Version": "1.147.2",
+      "libs": {
+        "sap.m": {},
+        "sap.ui.core": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "exercise1g4.i18n.i18n"
+        }
+      }
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "css/style.css"
+        }
+      ]
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "controlAggregation": "pages",
+        "controlId": "app",
+        "transition": "slide",
+        "type": "View",
+        "viewType": "XML",
+        "path": "exercise1g4.view",
+        "async": true,
+        "viewPath": "exercise1g4.view"
+      },
+      "routes": [
+        {
+          "name": "RouteExercise1_G4",
+          "pattern": ":?query:",
+          "target": [
+            "TargetExercise1_G4"
+          ]
+        }
+      ],
+      "targets": {
+        "TargetExercise1_G4": {
+          "id": "Exercise1_G4",
+          "name": "Exercise1_G4"
+        }
+      }
+    },
+    "rootView": {
+      "viewName": "exercise1g4.view.App",
+      "type": "XML",
+      "id": "App",
+      "async": true
+    }
+  }
+}
