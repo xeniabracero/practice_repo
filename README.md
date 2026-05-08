@@ -35,5 +35,7 @@ An SAP Fiori application.
 
 ### Bien Gilzon C Lara
 - I learned the basics of collaborative work on a project using Github. This involves making use of branching in Github for each release, cloning the repository in BAS, changing the active branch in BAS, then using CLI commands FETCH, PULL, ADD, COMMIT, and PUSH. Once done with these, we can proceed with making a PULL REQUEST in Github to merge the changes  to the MAIN branch.
+### Cesar Magallanes 
+- learned how to collaborate using GitHub by working with branches, using Git commands in BAS, and creating pull requests and review it before merging the changes into the main branch. that's all thank you ":D"
 ### Updates:
 05/05/26 - Updated after renaming project to exercise2_g4.
